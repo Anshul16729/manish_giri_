@@ -25,7 +25,7 @@ export const basicContactDetails={
    linkedin:"LinkedIn",
    linkedinUrl:'https://www.linkedin.com/in/manish-giri-4192a2158',
    isFreelance:"Available",
-   website:"https://anshulshri.netlify.app/",
+   website:"https://manishgiri.netlify.app",
    skypeUrl:"https://join.skype.com/invite/tqGWlQHJwbsc",
    skype:"Skype",
 }
