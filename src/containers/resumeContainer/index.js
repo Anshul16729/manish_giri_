@@ -48,7 +48,7 @@ const ResumeContainer = () => {
             >
               View Resume&nbsp;
             </a>
-            to check my detailed updated resume.
+            to check my detailed work experience.
           </p>
         </div>
 
