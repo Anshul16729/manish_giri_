@@ -1,13 +1,13 @@
 import React from 'react'
-import { words } from '../../utils/Constants'
-import Typewriter from '../../TypeWriter'
+import Typewriter from '../../reusable-components/typeWriter'
+import { profileName,words } from '../../utils/constants'
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
+    <section id="hero" className="d-flex flex-column justify-content-center align-items-center home-section">
     <div className="hero-container" data-aos="fade-in">
-      <h1>Manish Giri</h1>
-      <p>I'm a <Typewriter strings={words}/></p>
+      <h1>{profileName}</h1>
+      <p>I'm <Typewriter strings={words}/></p>
     </div>
   </section>
   )

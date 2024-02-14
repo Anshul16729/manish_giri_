@@ -66,6 +66,10 @@ h6 {
   opacity: 1;
 }
 
+/* #hero .back-to-top{
+ display: hidden;
+} */
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -172,6 +176,10 @@ h6 {
   white-space: nowrap;
 }
 
+.pointer{
+  cursor: pointer;
+}
+
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
@@ -241,7 +249,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("./assets/img/bg-photo.jpg") top center;
+  background: url("./assets/img/Banner.jpg") top center;
   background-size: cover;
 }
 

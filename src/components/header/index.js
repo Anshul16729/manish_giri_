@@ -1,6 +1,6 @@
 import React from 'react'
 import profileImg from '../../assets/img/profile-pic.jpg'
-import { SocialMediaUrl } from '../../utils/Constants';
+import { SocialMediaUrl } from '../../utils/constants';
 
 
 const Header = () => {
