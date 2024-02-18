@@ -63,7 +63,7 @@ const ResumeContainer = () => {
               <ul>
                 <li>{basicContactDetails.address}</li>
                 <li>{basicContactDetails.phone}</li>
-                <li><a href="mailto:manishgiri2102@gmail.com">{basicContactDetails.emailMe}</a></li>
+                <li><a href="mailto:manishgiri2102@gmail.com" title="manishgiri2102@gmail.com">{basicContactDetails.emailMe}</a></li>
                 <li>
                   <a href={basicContactDetails.skypeUrl} target="_blank">
                     {basicContactDetails.skype}
